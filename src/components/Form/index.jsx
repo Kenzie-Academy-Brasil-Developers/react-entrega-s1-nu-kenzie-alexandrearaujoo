@@ -32,7 +32,7 @@ const Form = ({handleCarList}) => {
                 />
                 <label className='exemplo'>Ex: Compra de roupas</label>
             </div>
-            <div className='teste'>
+            <div className='values'>
             <label className='labelValue'>Valor</label>
             <label className='typeValue'>Tipo de Valor</label>
             <input type="text" 

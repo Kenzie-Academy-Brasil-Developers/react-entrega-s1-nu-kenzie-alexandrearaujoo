@@ -64,6 +64,9 @@ select {
     border: none;
     color:#868E96 ;
 }
+option {
+    font-size: 15px;
+}
 .btn_submit {
     padding: 13px;
     width: 250px;
