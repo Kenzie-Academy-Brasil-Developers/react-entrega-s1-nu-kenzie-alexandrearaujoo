@@ -1,0 +1,23 @@
+header {
+    height: 50px;
+    background: #F8F9FA;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn_inicio {
+    background: #E9ECEF;
+    border: 1.4px solid #E9ECEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 8px;
+    color: #868E96;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+
+}
+.btn_inicio:hover {
+    filter: brightness(0.9);
+}

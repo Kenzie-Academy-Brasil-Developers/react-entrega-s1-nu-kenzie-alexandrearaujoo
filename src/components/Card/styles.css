@@ -1,0 +1,53 @@
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 98%;
+    height: 60px;
+    align-items: flex-start;
+    border-radius: 4px;
+    background-color: #F8F9FA;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.list-entrada {
+    border-left: 3px solid #008000;
+}
+.list-despesa {
+    border-left: 3px solid #E9ECEF;
+}
+li:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+}
+
+.trash:hover{
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+.infos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.types {
+    font-size: 12px;
+    color: #868E96;
+    margin-left: 3%;
+    font-family: 'Nunito', sans-serif;
+}
+.pDescricao {
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 10em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.spanValue {
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    
+}

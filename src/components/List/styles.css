@@ -1,0 +1,71 @@
+h2 {
+    font-weight: 600;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 310px;
+}
+
+.btn-todos, .btn-entradas, .btn-despesas {
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-todos {
+    background-color: #FD377E;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.btn-todos:hover{
+    filter: brightness(0.9);
+}
+.btn-entradas, .btn-despesas {
+    background-color: #E9ECEF;
+    color: #868E96;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.btn-entradas:hover, .btn-despesas:hover {
+    filter: brightness(0.9);
+}
+.list-geral {
+    height: 250px;
+    overflow-y: scroll;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+}
+.noCardTitle {
+    font-family: 'Nunito', sans-serif;
+    color: #868E96;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.imgNoCard {
+    width: 250px;
+}
+
+@media screen and (min-width: 1024px) {
+    .list-geral{
+        margin-top: 15px;
+        height: 400px;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .btn-todos, .btn-entradas, .btn-despesas{
+        padding: 8px;
+        margin-left: 12px;
+    }
+    nav {
+        width: 100%;
+    }
+    .imgNoCard{
+        width: 100%;
+    }
+}
