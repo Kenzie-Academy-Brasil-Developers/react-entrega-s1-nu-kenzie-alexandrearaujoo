@@ -1,0 +1,69 @@
+.sectionLandingPage {
+    min-height: 100vh;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.LogoPage img{
+    width: 200px;
+}
+.sectionStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 300px;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.TitleLanding {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 38px;
+}
+.spanLanding{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+.startSection {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    background-color: #FD377E;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.startSection:hover {
+    filter: brightness(0.9);
+}
+
+@media screen and (min-width: 768px) {
+    .LogoPage img{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .sectionLandingPage {
+        flex-direction: row;
+    }
+    .sectionStart{
+        width: 310px;
+    }
+    .startSection {
+        margin: 0;
+    }
+    .LogoPage img {
+        width: 500px;
+    }
+}
